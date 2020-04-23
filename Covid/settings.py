@@ -40,13 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'Entertainment',
+    
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
 
-    'Entertainment',
+    
 ]
 
 MIDDLEWARE = [
@@ -143,7 +145,7 @@ AUTHENTICATION_BACKENDS = (
      
 )
 
-SITE_ID=1
+SITE_ID = 1
 
 LOGIN_REDIRECT_URL="/"
 
